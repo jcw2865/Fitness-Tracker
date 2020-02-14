@@ -1,5 +1,5 @@
 //Require all files in models folder
-const db = require("../models");
+const db = require("../models/index");
 // Require mongoose, so we can use its syntax rather than specific MongoDB syntax
 const mongoose = require("mongoose");
 // Creating a variable abbreviation for the mongoose schema type objectid
