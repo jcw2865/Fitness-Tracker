@@ -12,6 +12,14 @@ app.use(express.json());
 app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
+// Create new workout using workout model
+db.Workout.create({ name: "Fitness Tracker" })
+    .then(dbWorkout => {
+        console.log(dbWorkout);
+    }).catch(err => {
+        res.json(err);
+    })
+
 // Requiring our routes
 require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
