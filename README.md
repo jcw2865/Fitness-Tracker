@@ -23,7 +23,7 @@ SO THAT I can manage my metrics and plan workouts more efficiently.
 
 The deployed project should look like this. Click the image to see a video of the deployed project.
 
-[![Deployed Project](FitnessTracker.png)](https://youtu.be/wUAif9AWBDU)
+[![Deployed Project](FitnessTrackerScreenShot.png)](https://youtu.be/wUAif9AWBDU)
 
 
 Below is the link to the project repository, a link to the deployed application on Heroku, and a link to the video of how the application works. 
