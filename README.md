@@ -21,18 +21,16 @@ SO THAT I can manage my metrics and plan workouts more efficiently.
 
 ## Getting Started
 
-The deployed project should look like this. Click the image to see a video of the deployed project.
+The deployed project should look like this.
 
-[![Deployed Project](FitnessTrackerScreenShot.png)](https://youtu.be/wUAif9AWBDU)
+![Deployed Project](FitnessTrackerScreenShot.png)
 
 
-Below is the link to the project repository, a link to the deployed application on Heroku, and a link to the video of how the application works. 
+Below is the link to the project repository and a link to the deployed application on Heroku.
 
 https://github.com/jcw2865/Fitness-Tracker
 
-https://shrouded-chamber-01100.herokuapp.com/
-
-https://youtu.be/wUAif9AWBDU
+https://stark-savannah-91252.herokuapp.com/
 
 ### Development
 
@@ -50,7 +48,9 @@ Below are the steps I took to create the application as it is so far. The most d
 
 6. Troubleshoot the returned data object from API routes to get the desired output.
 
-7. Troubleshoot the charts to represent the real data being inputted. 
+7. Troubleshoot the charts to represent the real data being entered. 
+
+8. Troubleshoot the deployment to Heroku. I initially tried to deploy without the use of MLab, which failed. I also had issues with my pathways which had to be fixed in order for the site to work correctly. 
 
 ## Testing
 
@@ -70,8 +70,8 @@ This program can be viewed and deployed using most internet browsers via the lin
 * [Postman](https://www.getpostman.com/) - A collaboration platform for API development.
 * [MongoDB](https://www.mongodb.com/) - A document-based database system.
 * [Mongoose](https://mongoosejs.com/) - MongoDB object modeling for Node.js
-* [Robo3T] (https://robomongo.org/) - A GUI for MongoDB
-* [YouTube](https://youtube.com) - Used to publish the video of the CLI which can be found in the "Getting Started" section. 
+* [Robo3T](https://robomongo.org/) - A GUI for MongoDB used in development.
+* [mLab](https://mlab.com) - Used to host the MongoDB database.
 <!-- ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
@@ -89,6 +89,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * The advisors, instructors, and TAs at the Coding Bootcamp at the University of Texas at Austin
-* Tutoring staff at Trilogy (Brittany and Michelle, thanks for the hack-a-thon and one-on-one support)
+* Tutoring staff at Trilogy
 * Fellow classmates at the Coding Bootcamp at UT-Austin
 * Friends in the industry
